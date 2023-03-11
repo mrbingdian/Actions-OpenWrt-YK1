@@ -16,3 +16,6 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+cp feeds.conf.default feeds.conf
+echo "src-git mmdvm https://github.com/lazywalker/mmdvm-openwrt" >> feeds.conf
